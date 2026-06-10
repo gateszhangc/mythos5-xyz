@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mythos5.xyz/sitemap.xml
