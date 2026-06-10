@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mythos 5 — Next-Generation AI Capabilities</title>
+  <meta name="description" content="Mythos 5 represents a leap forward in AI capabilities. Discover how this frontier model is redefining software engineering, scientific research, and autonomous reasoning.">
+  <meta name="keywords" content="Mythos 5, frontier AI, autonomous AI, AI capabilities, software engineering, scientific research, AI model">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1">
+  <meta name="application-name" content="Mythos 5">
+  <meta name="author" content="Mythos">
+  <meta name="referrer" content="origin-when-cross-origin">
+  <meta name="creator" content="Mythos">
+  <meta name="publisher" content="Mythos">
+  <meta name="category" content="Technology">
+  <meta name="format-detection" content="telephone=no, address=no, email=no">
+  <meta property="og:title" content="Mythos 5 — Next-Generation AI Capabilities">
+  <meta property="og:description" content="Mythos 5 represents a leap forward in AI capabilities. Discover how this frontier model is redefining software engineering, scientific research, and autonomous reasoning.">
+  <meta property="og:url" content="https://mythos5.com">
+  <meta property="og:site_name" content="Mythos 5">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@MythosAI">
+  <meta name="twitter:creator" content="@MythosAI">
+  <meta name="twitter:title" content="Mythos 5 — Next-Generation AI Capabilities">
+  <meta name="twitter:description" content="Mythos 5 represents a leap forward in AI capabilities. Discover how this frontier model is redefining software engineering, scientific research, and autonomous reasoning.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23141313'/%3E%3Ctext x='16' y='22' font-family='serif' font-size='20' font-weight='bold' fill='%23f5e6d0' text-anchor='middle'%3EM5%3C/text%3E%3C/svg%3E">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23141313'/%3E%3Ctext x='16' y='22' font-family='serif' font-size='20' font-weight='bold' fill='%23f5e6d0' text-anchor='middle'%3EM5%3C/text%3E%3C/svg%3E">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+    body {
+      font-family: ui-serif, 'Georgia', 'Times New Roman', serif;
+      background: #0a0a09;
+      color: #d4d0c8;
+      line-height: 1.6;
+    }
+    .site-shell { min-height: 100vh; }
+
+    /* Header */
+    header {
+      position: sticky; top: 0; z-index: 40;
+      max-width: 1280px; margin: 0 auto;
+      padding: 1.25rem 1.25rem 0;
+    }
+    header > div {
+      display: flex; align-items: center; justify-content: space-between;
+      background: rgba(10,10,9,0.84);
+      border: 1px solid rgba(212,208,200,0.12);
+      border-radius: 9999px;
+      padding: 0.5rem 0.75rem;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 18px 60px rgba(0,0,0,0.4);
+    }
+    .logo { display: flex; align-items: center; gap: 0.5rem; text-decoration: none; }
+    .logo svg { flex-shrink: 0; }
+    .logo-text { display: flex; flex-direction: column; }
+    .logo-name { font-size: 0.95rem; font-weight: 700; color: #f5e6d0; letter-spacing: 0.02em; }
+    .logo-sub { font-size: 0.65rem; color: rgba(212,208,200,0.5); text-transform: uppercase; letter-spacing: 0.15em; }
+    nav { display: none; gap: 0.25rem; }
+    @media (min-width: 1024px) { nav { display: flex; } }
+    nav a {
+      padding: 0.375rem 0.75rem; border-radius: 9999px; font-size: 0.82rem;
+      color: rgba(212,208,200,0.7); text-decoration: none; transition: all 0.2s;
+    }
+    nav a:hover { background: rgba(212,208,200,0.06); color: #f5e6d0; }
+
+    /* Main container */
+    main { max-width: 1280px; margin: 0 auto; padding: 0 1.25rem 3.5rem; display: flex; flex-direction: column; gap: 3.5rem; }
+    @media (min-width: 640px) { main { padding-left: 1.75rem; padding-right: 1.75rem; } }
+    @media (min-width: 1024px) { main { padding-left: 2.5rem; padding-right: 2.5rem; } }
+
+    /* Section */
+    section {
+      border-left: 1px solid rgba(212,208,200,0.12);
+      border-right: 1px solid rgba(212,208,200,0.12);
+      padding: 1.5rem 1rem;
+    }
+    @media (min-width: 640px) { section { padding-left: 1.5rem; padding-right: 1.5rem; } }
+    @media (min-width: 1024px) { section { padding-left: 2rem; padding-right: 2rem; } }
+
+    /* Hero */
+    .hero { display: grid; gap: 2rem; padding-top: 2rem; padding-bottom: 2rem; }
+    @media (min-width: 1024px) { .hero { grid-template-columns: 1.15fr 0.85fr; padding-top: 3rem; padding-bottom: 3rem; } }
+    .hero h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); line-height: 1.2; color: #f5e6d0; font-weight: 700; letter-spacing: -0.01em; }
+    .hero p { font-size: 1.05rem; color: rgba(212,208,200,0.7); margin-top: 1rem; max-width: 36rem; line-height: 1.7; }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.25rem; }
+    .badge {
+      display: inline-flex; align-items: center; gap: 0.375rem;
+      font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em;
+      padding: 0.25rem 0.625rem; border-radius: 9999px;
+      background: rgba(212,208,200,0.06); color: rgba(212,208,200,0.5);
+    }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.625rem 1.5rem; border-radius: 9999px; font-size: 0.875rem;
+      background: #f5e6d0; color: #0a0a09; font-weight: 600; text-decoration: none;
+      transition: opacity 0.2s;
+    }
+    .btn-primary:hover { opacity: 0.85; }
+    .btn-secondary {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.625rem 1.5rem; border-radius: 9999px; font-size: 0.875rem;
+      border: 1px solid rgba(212,208,200,0.2); color: rgba(212,208,200,0.8);
+      text-decoration: none; transition: all 0.2s;
+    }
+    .btn-secondary:hover { background: rgba(212,208,200,0.06); border-color: rgba(212,208,200,0.35); }
+    .hero-info { display: grid; gap: 0.75rem; }
+    @media (min-width: 640px) { .hero-info { grid-template-columns: 1fr 1fr; } }
+    .info-card {
+      padding: 1rem; border-radius: 0.75rem;
+      border: 1px solid rgba(212,208,200,0.1);
+      background: rgba(212,208,200,0.03);
+    }
+    .info-card .label { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.15em; color: rgba(212,208,200,0.35); }
+    .info-card .value { font-size: 0.85rem; color: #f5e6d0; margin-top: 0.25rem; font-weight: 600; }
+
+    /* Eyebrow */
+    .eyebrow { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.24em; color: rgba(212,208,200,0.4); margin-bottom: 0.5rem; }
+
+    /* Section grid layout */
+    .section-grid { display: grid; gap: 1.5rem; }
+    @media (min-width: 1024px) { .section-grid { grid-template-columns: 0.7fr 1.3fr; } }
+    .section-grid-right { display: grid; gap: 1rem; }
+    @media (min-width: 768px) { .section-grid-right.md-2 { grid-template-columns: 1fr 1fr; } }
+    @media (min-width: 768px) { .section-grid-right.md-3 { grid-template-columns: 1fr 1fr 1fr; } }
+
+    h2 { font-size: clamp(1.2rem, 2.5vw, 1.65rem); color: #f5e6d0; font-weight: 700; line-height: 1.3; letter-spacing: -0.01em; }
+    h2 + p.subtitle { color: rgba(212,208,200,0.6); font-size: 0.9rem; margin-top: 0.5rem; max-width: 32rem; }
+
+    /* Card */
+    .card {
+      display: flex; flex-direction: column; gap: 0.5rem;
+      padding: 1rem; border-radius: 0.75rem;
+      border: 1px solid rgba(212,208,200,0.1);
+      background: rgba(212,208,200,0.03);
+    }
+    .card h3 { font-size: 0.95rem; color: #f5e6d0; font-weight: 600; }
+    .card p { font-size: 0.82rem; color: rgba(212,208,200,0.6); line-height: 1.6; }
+    .card .card-num { font-size: 0.7rem; color: rgba(212,208,200,0.25); font-weight: 700; }
+
+    /* How it works */
+    .how-grid { display: grid; gap: 2rem; }
+    @media (min-width: 1024px) { .how-grid { grid-template-columns: 0.65fr 1.35fr; } }
+
+    /* FAQ accordion */
+    .faq-item { border-bottom: 1px solid rgba(212,208,200,0.08); }
+    .faq-question {
+      width: 100%; display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 0; background: none; border: none; color: #f5e6d0;
+      font-size: 0.95rem; font-family: inherit; font-weight: 600; cursor: pointer;
+      text-align: left;
+    }
+    .faq-question::after {
+      content: '+'; font-size: 1.2rem; color: rgba(212,208,200,0.3);
+      transition: transform 0.2s;
+    }
+    .faq-item.open .faq-question::after { transform: rotate(45deg); }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; padding: 0; }
+    .faq-item.open .faq-answer { max-height: 200px; padding-bottom: 1rem; }
+    .faq-answer p { font-size: 0.85rem; color: rgba(212,208,200,0.6); line-height: 1.6; }
+
+    /* Footer */
+    footer {
+      max-width: 1280px; margin: 0 auto; padding: 0 1.25rem 2rem;
+    }
+    @media (min-width: 640px) { footer { padding-left: 1.75rem; padding-right: 1.75rem; } }
+    @media (min-width: 1024px) { footer { padding-left: 2.5rem; padding-right: 2.5rem; } }
+    footer > div {
+      display: flex; flex-direction: column; gap: 1rem;
+      border-left: 1px solid rgba(212,208,200,0.12);
+      border-right: 1px solid rgba(212,208,200,0.12);
+      border-bottom: 1px solid rgba(212,208,200,0.12);
+      padding: 1.5rem 1rem;
+      font-size: 0.82rem; color: rgba(212,208,200,0.4);
+    }
+    @media (min-width: 640px) {
+      footer > div { flex-direction: row; align-items: center; justify-content: space-between; padding-left: 1.5rem; padding-right: 1.5rem; }
+    }
+    @media (min-width: 1024px) { footer > div { padding-left: 2rem; padding-right: 2rem; } }
+    footer a { color: rgba(212,208,200,0.5); text-decoration: none; }
+    footer a:hover { color: #f5e6d0; }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 1rem; }
+  </style>
+</head>
+<body>
+<div class="site-shell">
+
+<header>
+  <div>
+    <a href="/" class="logo">
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="36" height="36" rx="9" fill="#141313"/>
+        <path d="M12.5 24V12h3.6l4.05 7.875L24.2 12h3.3v12h-3.05v-8.55l-4.275 8.1h-1.125l-4.275-8.1V24H12.5Z" fill="#f5e6d0"/>
+      </svg>
+      <span class="logo-text">
+        <span class="logo-name">Mythos 5</span>
+        <span class="logo-sub">Frontier AI</span>
+      </span>
+    </a>
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div>
+      <h1>Mythos 5 is a frontier model that redefines what AI can achieve.</h1>
+      <p>It represents a breakthrough in autonomous reasoning, software engineering, and scientific research — setting new benchmarks across nearly every measure of AI capability.</p>
+      <div class="hero-meta">
+        <span class="badge">Frontier AI Model</span>
+        <span class="badge">June 2026 Release</span>
+      </div>
+      <div class="hero-actions">
+        <a href="https://mirofish.my/" class="btn-primary" target="_blank" rel="noopener noreferrer">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 19 12"/><polyline points="12 5 19 12 12 19"/></svg>
+          Get Started
+        </a>
+        <a href="#overview" class="btn-secondary">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-info">
+      <div class="info-card">
+        <div class="label">Creator</div>
+        <div class="value">Frontier Research Lab</div>
+      </div>
+      <div class="info-card">
+        <div class="label">Release</div>
+        <div class="value">June 2026</div>
+      </div>
+      <div class="info-card">
+        <div class="label">Token Pricing</div>
+        <div class="value">$10 / $50 per M tokens</div>
+      </div>
+      <div class="info-card">
+        <div class="label">Context Window</div>
+        <div class="value">Millions of tokens</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Overview -->
+  <section id="overview">
+    <div class="section-grid">
+      <div>
+        <div class="eyebrow">Overview</div>
+        <h2>What makes Mythos 5 different from previous models</h2>
+      </div>
+      <div class="section-grid-right md-2">
+        <div class="card">
+          <h3>State-of-the-art across all benchmarks</h3>
+          <p>Mythos 5 achieves the highest scores on nearly every tested benchmark of AI capability, from software engineering to scientific reasoning.</p>
+        </div>
+        <div class="card">
+          <h3>Autonomous long-horizon reasoning</h3>
+          <p>The model works autonomously for longer than any previous model, handling complex multi-step tasks that were previously out of reach.</p>
+        </div>
+        <div class="card">
+          <h3>Exceptional vision capabilities</h3>
+          <p>New state-of-the-art in vision tasks including precise extraction from scientific figures and full source-code reconstruction from screenshots.</p>
+        </div>
+        <div class="card">
+          <h3>Built-in safety classifiers</h3>
+          <p>Separate AI systems detect potential misuse including jailbreak attempts, ensuring the model remains safe for general use.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Capabilities -->
+  <section id="capabilities">
+    <div style="text-align:center; padding: 1rem 0;">
+      <div class="eyebrow">Capabilities</div>
+      <h2>Evaluating Mythos 5</h2>
+      <p class="subtitle" style="margin: 0.75rem auto 0;">Mythos 5's capabilities exceed those of any previous model. It is state-of-the-art across software engineering, knowledge work, vision, and scientific research.</p>
+    </div>
+    <div style="display:grid; gap:1rem; margin-top:1.5rem;">
+      <div class="section-grid-right md-3">
+        <div class="card">
+          <h3>Software Engineering</h3>
+          <p>Mythos 5 can work autonomously in multi-million-line codebases, performing migrations and complex refactors that would take teams months to complete manually.</p>
+        </div>
+        <div class="card">
+          <h3>Knowledge Work</h3>
+          <p>Strong performance on complex analytical tasks including document-based reasoning, chart interpretation, and senior-level problem solving across domains.</p>
+        </div>
+        <div class="card">
+          <h3>Vision &amp; Visual Reasoning</h3>
+          <p>Extracts precise numbers from detailed scientific figures and performs complex vision tasks including rebuilding web app source code from screenshots alone.</p>
+        </div>
+        <div class="card">
+          <h3>Memory &amp; Long Context</h3>
+          <p>Stays focused across millions of tokens in long-running tasks and improves outputs using persistent file-based memory and self-generated notes.</p>
+        </div>
+        <div class="card">
+          <h3>Scientific Research</h3>
+          <p>Produces novel, compelling scientific hypotheses and conducts autonomous research — designing custom models and analyzing data across millions of samples.</p>
+        </div>
+        <div class="card">
+          <h3>Drug Design &amp; Biology</h3>
+          <p>Accelerates aspects of drug design by around ten times, matching or beating skilled human operators in protein design and bioinformatics tasks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how-it-works">
+    <div style="padding: 0.5rem 0;">
+      <div class="eyebrow">How It Works</div>
+      <h2>The architecture behind Mythos 5's capabilities</h2>
+      <p class="subtitle">A combination of advanced training techniques, novel architectures, and rigorous safety testing enables Mythos 5 to perform at unprecedented levels.</p>
+    </div>
+    <div class="how-grid" style="margin-top:1rem;">
+      <div>
+        <div class="card" style="gap:0.75rem;">
+          <h3>Core Architecture</h3>
+          <p>Mythos 5 builds on a fundamentally improved training methodology. The model's architecture is designed for both breadth of knowledge and depth of reasoning, with specialized pathways for long-horizon tasks.</p>
+        </div>
+      </div>
+      <div class="section-grid-right md-2">
+        <div class="card">
+          <div class="card-num">01</div>
+          <h3>Advanced training methodology</h3>
+          <p>Novel training techniques enable the model to generalize across domains while maintaining deep specialization in each area of capability.</p>
+        </div>
+        <div class="card">
+          <div class="card-num">02</div>
+          <h3>Autonomous reasoning loop</h3>
+          <p>The model proposes, evaluates, and iterates on solutions autonomously — keeping only improvements that demonstrably advance the task at hand.</p>
+        </div>
+        <div class="card">
+          <div class="card-num">03</div>
+          <h3>Persistent memory system</h3>
+          <p>File-based memory allows the model to maintain context across extremely long sessions, improving its outputs by referencing its own prior work.</p>
+        </div>
+        <div class="card">
+          <div class="card-num">04</div>
+          <h3>Safety classifier network</h3>
+          <p>Separate classifier systems detect potential misuse in real-time, routing sensitive queries to a secondary model while maintaining normal operation for the vast majority of requests.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Safety -->
+  <section>
+    <div class="section-grid">
+      <div>
+        <div class="eyebrow">Safety</div>
+        <h2>Built-in safeguards for responsible deployment</h2>
+      </div>
+      <div>
+        <div class="card" style="margin-bottom:1rem;">
+          <h3>Multi-layered safety architecture</h3>
+          <p>Mythos 5 includes classifiers that detect potential misuse across cybersecurity, biology and chemistry, and distillation attempts. When flagged, requests are automatically handled by a secondary model instead. Early data shows over 95% of sessions involve no fallback at all.</p>
+        </div>
+        <div class="section-grid-right md-2">
+          <div class="card">
+            <h3>Cybersecurity safeguards</h3>
+            <p>Classifiers prevent the model from providing uplift in cyberattacks, covering both exploitation and offensive cyber tasks. External testing found Fable-grade safeguards to be the most robust of any model tested.</p>
+          </div>
+          <div class="card">
+            <h3>Biology and chemistry safeguards</h3>
+            <p>For general use, biology and chemistry related requests fall back to a secondary model. A trusted access program enables legitimate biomedical researchers to access full capabilities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div style="padding:0.5rem 0;">
+      <div class="eyebrow">FAQ</div>
+      <h2>The fastest answers to the questions people ask first</h2>
+    </div>
+    <div style="margin-top:1rem;">
+      <div class="faq-item open">
+        <button class="faq-question" onclick="toggleFaq(this)">What is Mythos 5?</button>
+        <div class="faq-answer"><p>Mythos 5 is a frontier-class AI model that represents a significant leap in capability across software engineering, knowledge work, vision, and scientific research. It achieves state-of-the-art results on nearly all tested benchmarks.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">How does Mythos 5 differ from previous models?</button>
+        <div class="faq-answer"><p>Mythos 5 can work autonomously for longer, handle more complex multi-step tasks, and shows exceptional performance in long-horizon reasoning. It is the first model at this capability level made available for general use with appropriate safeguards.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">What pricing is available for Mythos 5?</button>
+        <div class="faq-answer"><p>Mythos 5 is offered at $10 per million input tokens and $50 per million output tokens, making it accessible for a wide range of use cases from development to research.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">How are safety concerns addressed?</button>
+        <div class="faq-answer"><p>Mythos 5 includes a multi-layered safety system with classifiers that detect potential misuse. Sensitive queries fall back to a secondary model. Extensive red-teaming and external testing have validated the robustness of these safeguards.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">What tasks can Mythos 5 handle autonomously?</button>
+        <div class="faq-answer"><p>Mythos 5 excels at autonomous software engineering (codebase-wide migrations, complex refactors), scientific research (hypothesis generation, experimental design), knowledge work (analytical reasoning, document analysis), and vision tasks.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="padding:2rem 1rem; text-align:center;">
+    <div class="eyebrow">Get Started</div>
+    <h2 style="font-size:clamp(1.3rem,3vw,2rem);">It turns research judgment into something an agent can repeat.</h2>
+    <p style="color:rgba(212,208,200,0.6); max-width:32rem; margin:0.75rem auto 0; font-size:0.9rem;">Experience the capabilities of Mythos 5 for yourself. From autonomous coding to scientific discovery, the frontier of AI is here.</p>
+    <div style="margin-top:1.5rem; display:flex; gap:0.75rem; justify-content:center; flex-wrap:wrap;">
+      <a href="https://mirofish.my/" class="btn-primary" target="_blank" rel="noopener noreferrer">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 12 19 12"/><polyline points="12 5 19 12 12 19"/></svg>
+        Get Started
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div>
+    <span>Mythos 5 — A frontier model built for the next generation of AI capabilities.</span>
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="#overview">Overview</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#faq">FAQ</a>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+<script>
+function toggleFaq(btn) {
+  const item = btn.closest('.faq-item');
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+</script>
+
+</body>
+</html>
